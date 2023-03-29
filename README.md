@@ -45,6 +45,8 @@ Avoir un fichier regroupement les différences entre un import et un export GVD
   - Renommer le ficher en : export.csv
 - Placer le fichier a comparer dans le dossier ./projet/data/input
   - Renommer le ficher en : import.csv
+- Activer l'environement virtuel
+> env\Scripts\activate
 - Lancement du script
 > py .\projet\script\verification_gvd.py
 

@@ -45,7 +45,7 @@ class verification_gvd:
                 self.csv_import[-1],
                 on_bad_lines="skip",
                 sep=";",
-                skiprows=2,
+                skiprows=1,
                 encoding="utf-8",
             )
             self.log.info("Lecture du fichier csv_import.")
@@ -57,7 +57,7 @@ class verification_gvd:
                 self.csv_export[-1],
                 on_bad_lines="skip",
                 sep=";",
-                skiprows=2,
+                skiprows=1,
                 encoding="utf-8",
             )
             self.log.info("Lecture du fichier csv_export.")
